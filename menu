@@ -1,0 +1,25 @@
+#!/bin/bash
+while :
+do
+echo "========================================================"
+echo 
+echo 
+echo "                           A_water                    "
+echo 
+echo "                                             作者: 往     "
+echo "========================================================="
+echo "                                                         "
+echo "                          输入数字进行操作                                           "
+echo "                          1：编译java                             "
+echo "                          2：git上传文件"
+echo "                          x：退出工具"
+read l
+if [ $l == 1 ]
+then
+scripts/java
+elif [ $l = 'x' ]
+then
+echo "                        [再见]                              "
+exit
+fi
+done
